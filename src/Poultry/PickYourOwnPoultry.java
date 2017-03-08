@@ -13,7 +13,7 @@ public class PickYourOwnPoultry {
     
         private static Poultry poultry;
     
-        public static CustomPoultry poultryInformation(Audible a, Flyable f, Swimable s, Poultry.PoultryType p, String species) {
+        public static CustomPoultry poultryInformation(Audible a, Flyable f, Swimable s, PoultryType p, String species) {
         Audible quack = a;
         Flyable fly = f;
         Swimable swim = s;

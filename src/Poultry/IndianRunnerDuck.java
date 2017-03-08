@@ -15,7 +15,7 @@ public class IndianRunnerDuck {
         Audible quack = new Quack();
         Flyable fly = new FlyWithWings();
         Swimable swim = new SwimWithFeet();
-        Poultry duck = new CustomPoultry(quack, fly, swim, Poultry.PoultryType.DUCK, "Indian Runner") {
+        Poultry duck = new CustomPoultry(quack, fly, swim, PoultryType.DUCK, "Indian Runner") {
         };
         return (CustomPoultry) duck;
     }

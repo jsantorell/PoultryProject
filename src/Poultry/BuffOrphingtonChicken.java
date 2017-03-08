@@ -15,7 +15,7 @@ public class BuffOrphingtonChicken {
         Audible quack = new Boach();
         Flyable fly = new FlyWithWings();
         Swimable swim = new CanNotSwim();
-        Poultry chicken = new CustomPoultry(quack, fly, swim, Poultry.PoultryType.CHICKEN, "Buff Orphington") {
+        Poultry chicken = new CustomPoultry(quack, fly, swim, PoultryType.CHICKEN, "Buff Orphington") {
         };
         return (CustomPoultry) chicken;
     }

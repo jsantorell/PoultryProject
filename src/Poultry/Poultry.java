@@ -11,10 +11,6 @@ package Poultry;
  */
 public interface Poultry {
 
-    public enum PoultryType {
-        CHICKEN, DUCK, TURKEY
-    }
-    
     public abstract void getPoultryClass();
 
     public abstract void performAudible();
