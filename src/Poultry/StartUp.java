@@ -4,6 +4,13 @@
  * and open the template in the editor.
  */
 package Poultry;
+
+import Poultry.GenericCopyPastePoultry.*;
+import Poultry.GlobalVariables.PoultryType;
+import Poultry.Swimable.*;
+import Poultry.Flyable.*;
+import Poultry.Audible.*;
+
 /**
  *
  * @author jerem

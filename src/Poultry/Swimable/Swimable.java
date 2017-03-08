@@ -3,17 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Poultry;
+package Poultry.Swimable;
 
 /**
  *
  * @author jerem
  */
-public class SwimWithFeet implements Swimable{
-
-    @Override
-    public void swim() {
-        System.out.println("I swim with my webbed feet.");
-    }
-    
+public interface Swimable {
+    public abstract void swim();
 }

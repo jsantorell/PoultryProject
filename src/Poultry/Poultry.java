@@ -5,6 +5,8 @@
  */
 package Poultry;
 
+import Poultry.GlobalVariables.PoultryType;
+
 /**
  *
  * @author jerem

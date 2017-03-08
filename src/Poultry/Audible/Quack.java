@@ -3,17 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Poultry;
+package Poultry.Audible;
 
 /**
  *
  * @author jerem
  */
-public class CanNotSwim implements Swimable{
-
+public class Quack implements Audible{
     @Override
-    public final void swim() {
-        System.out.println("I can not Swim");
+    public void makeSound(){
+        System.out.print("The sound I make is: ");
+        System.out.println("Quack Quack Quack Quack");
+    
     }
     
 }

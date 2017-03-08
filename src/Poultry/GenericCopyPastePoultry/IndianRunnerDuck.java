@@ -3,7 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Poultry;
+package Poultry.GenericCopyPastePoultry;
+
+import Poultry.GlobalVariables.PoultryType;
+import Poultry.Swimable.*;
+import Poultry.Flyable.*;
+import Poultry.Audible.*;
+import Poultry.CustomPoultry;
+import Poultry.Poultry;
+import Poultry.PoultryReporter;
 
 /**
  *

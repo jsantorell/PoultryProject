@@ -5,6 +5,11 @@
  */
 package Poultry;
 
+import Poultry.GlobalVariables.PoultryType;
+import Poultry.Swimable.Swimable;
+import Poultry.Flyable.Flyable;
+import Poultry.Audible.Audible;
+
 /**
  *
  * @author jerem
